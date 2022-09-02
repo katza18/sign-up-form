@@ -1,9 +1,32 @@
-body {
+html, body {
     height: 100vh;
     margin: 0;
 }
 
 img {
-    height: 100vh;
+    height: 100%;
     width: auto;
+}
+
+div {
+    width: 100%;
+}
+
+.container {
+    display:flex;
+}
+div.container {
+    flex-direction: column;
+}
+span.container {
+   flex-direction: column; 
+}
+
+.gray {
+    background-color:rgb(248,248,248);
+    height: 33%;
+}
+
+.sign-up {
+    height: 34%;
 }
