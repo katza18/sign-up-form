@@ -43,3 +43,28 @@ h2 {
     margin-bottom: 1em;
     margin-top:0;
 }
+
+button {
+    background-color:rgb(185, 0, 0);
+    border: none;
+    color: white;
+    padding: 1em 4em;
+    text-align: center;
+    margin: 2em 3em;
+    border-radius: 4px;
+    font-size: .75rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(145, 0, 0);
+}
+
+.text {
+    margin-left: 2em;
+}
+
+a {
+    color: rgb(185, 0, 0);
+    text-decoration: none;
+}
