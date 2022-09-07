@@ -12,17 +12,30 @@ img {
     width: auto;
 }
 
-div {
-    width: 100%;
+.overlay {
+    color: white;
+    align-self: flex-end;
 }
 
 .container {
-    display:flex;
+    display: flex;
 }
-div.container {
+
+.left {
+    flex: 1;
+    background-image: url("samuel-girven-VJ2s0c20qCo-unsplash.jpg");
+    background-size: cover;
+    text-align: center;
+    justify-content: center
+}
+
+.right {
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 2 1 0;
 }
+
 span.container {
    flex-direction: column; 
    padding-right: 3em;
