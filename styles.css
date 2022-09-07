@@ -12,9 +12,24 @@ img {
     width: auto;
 }
 
-.overlay {
+.overlay, .citation {
     color: white;
-    align-self: flex-end;
+    width: 100%;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-top: 2em;
+    padding: 0.25em 0;
+}
+.citation {
+    position: absolute;
+    width: max-content;
+    bottom: 0;
+    align-self: center;
+    margin-bottom: 1em;
 }
 
 .container {
@@ -25,8 +40,9 @@ img {
     flex: 1;
     background-image: url("samuel-girven-VJ2s0c20qCo-unsplash.jpg");
     background-size: cover;
+    font-size: .75rem;
+    flex-direction: column;
     text-align: center;
-    justify-content: center
 }
 
 .right {
@@ -90,6 +106,5 @@ button:hover {
 }
 
 a {
-    color: rgb(185, 0, 0);
-    text-decoration: none;
+    color: white;
 }
